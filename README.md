@@ -1,0 +1,1 @@
+Download the project and run "npm install" command in terminal use url:http://localhost:4200/ to load the server in chrome. To run the project run "ng serve" in terminal in terminal.First Screen - Enter the valid details and click on Add shape button and start the process to calculate the area of mentioned shape.

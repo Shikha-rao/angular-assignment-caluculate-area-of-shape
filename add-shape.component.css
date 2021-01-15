@@ -1,0 +1,31 @@
+.example-card {
+  max-width: 470px;
+  height: 404px;
+
+}
+.cardSection{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  padding-top: 6px
+}
+
+.example-full-width {
+  width: 100%;
+}
+button{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #35994f;
+  color: black;
+  font-size: 18px;
+  width: 200px;
+}
+.shape-card-color{
+ background-color: #ffc800;
+}
+mat-card-content{
+  margin: 20px;
+}
+

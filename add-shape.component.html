@@ -1,0 +1,47 @@
+<div class="cardSection">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Welcome to Shape Calculator</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+              Shape Calculator is an interactive web
+              application. To the right you will find the 3
+              step application. Follow the intstructions
+              in each step . Clicking cancel will take
+              you back to step 1. Enjoy!
+          </p>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="example-card shape-card-color">
+          <mat-card-header>
+            <mat-card-title>Add Shape</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Adding a shape requires to enter sides and area function</p>
+            <div>
+                <form  [formGroup]="shapeForm" (ngSubmit)="onSubmit()">
+                    <mat-form-field class="example-full-width">
+                      <mat-label>Enter Name of shape</mat-label>
+                        <input   matInput  placeholder="text" formControlName="shape"  appAllowedRegExp >
+                      </mat-form-field>
+                      <mat-form-field class="example-full-width">
+                          <mat-label>Enter Dimensions</mat-label>
+                          <input   matInput  placeholder="text" formControlName="dimension"  appAllowedRegExp >
+                        </mat-form-field>
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Enter Area Function</mat-label>
+                            <input   matInput  placeholder="text" formControlName="areaFunc"  appAllowedRegExp >
+                          </mat-form-field>
+
+                      <button mat-button >Add Shape</button>
+                </form>
+
+
+
+            </div>
+          </mat-card-content>
+        </mat-card>
+</div>
+
+
